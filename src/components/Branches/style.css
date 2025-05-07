@@ -91,4 +91,8 @@ img.uchtepa {
     .branch-txt {
         width: 80%;
     }
+
+    .branches .flex {
+        flex-direction: column;
+    }
 }
