@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.branches > .flex {
+    justify-content: center;
+    gap: 2%;
+}
+
+
+.branches img {
+    border-radius: 20px;
+    width: 350px;
+    position: relative;
+    filter: brightness(85%) contrast(105%) saturate(90%);
+}
+
+
+.branches .column {
+    flex-direction: column;
+}
+
+
+.yunusobod img {
+    width: 350px;
+}
+
+
+img.sergeli {  
+    /*  Sergeli */
+    filter: brightness(75%) contrast(110%) saturate(70%) hue-rotate(-10deg); 
+}
+
+
+img.uchtepa {
+    /*  UchTepa */ 
+    filter: brightness(85%) contrast(105%) saturate(90%) hue-rotate(0deg);
+}
+
+
+.branch-txt {
+    position: absolute;
+    z-index: 99;
+    margin: 20px;
+    padding: 10px 20px;
+    color: var(--Zircon);
+    /* background: var(--Mine-Shaft-transparent); */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.branch-txt a {
+    color: var(--Zircon);
+}
+
+
+.branch-txt a:hover {
+    border-bottom: 1px solid var(--Zircon);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+
+    position: relative;
+}
+
+
+@media (max-width: 500px) {
+    .branches .flex {
+        gap: 20px;
+    }
+
+
+    .branch-txt {
+        width: 80%;
+    }
+}

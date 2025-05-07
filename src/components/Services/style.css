@@ -1,0 +1,123 @@
+.plan-cards {
+    justify-content: space-between;
+    padding: 60px 0 120px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.info-card {
+    width: 350px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+
+.info-card button {
+    padding: 16px 48px;
+    border: none;
+    background: var(--primary);
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.info-card h6 {
+    color: var(--primary);
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+
+.info-card h3 {
+    font-size: calc(1rem + 2.1vw);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+
+.plan-cards .card {
+    background: var(--light);
+    padding: 50px 30px;
+    width: 350px;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+    box-shadow: 0 0 45px #EDEDED;
+}
+
+
+.plan-cards .card h2 {
+     color: var(--Mine-Shaft);
+     text-align: center;
+}
+
+
+.plan-cards .card .globeicon {
+    width: 65px;
+}
+
+
+.plan-cards .card li {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+    color: var(--Mine-Shaft);
+    width: 250px;
+    text-align: center;
+}
+
+
+.giftIcon {
+    width: 70px;
+    height: 70px;
+}
+
+
+.earthicon {
+    width: 90px;
+}
+
+
+/* Mobile */
+@media (max-width: 500px) {
+    .plan-cards {
+        overflow: auto;
+    }
+
+
+    .card h2 {
+        padding: 6px 0;
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 780px) {
+    .plan .container > .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .plan .card {
+        width: 90%;
+    }
+}
+
+

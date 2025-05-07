@@ -1,0 +1,63 @@
+li > a {
+    color: var(--primary);
+    text-transform: uppercase;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    display: inline-block;
+
+    height: 100%;
+    
+
+    padding: 30px 10px;
+
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+
+
+nav .flex {
+    justify-content: center;
+}
+
+
+nav {
+    background: var(--light);
+    height: 100%;
+}
+
+nav .container {
+    height: 100%;
+    padding: 0 100px;
+}
+
+
+li > a:hover {
+    background: #FF9933;
+}
+
+
+nav .menu {
+    font-size: 30px;
+}
+
+@media (max-width: 500px) {
+    nav .desktop {
+        display: none;
+    }
+
+
+    nav .mobile {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    nav .container {
+        padding: 20px 0;
+    }
+}

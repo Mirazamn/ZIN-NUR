@@ -1,0 +1,148 @@
+.plan-sect h1 {
+    color: var(--Black);
+    text-align: center;
+    font-size: 3rem;
+    color: var(--Mine-Shaft);
+}
+
+
+.plan-sect p {
+    color: var(--primary);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 60px 0 0 0;
+}
+
+
+.plan-sect .plan-cards {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 60px 0 120px;
+    gap: 30px;
+}
+
+
+.plan-sect .plan-cards .card {
+    background: var(--White);
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    align-items: flex-start;
+}
+
+
+.card h6 {
+    color: var(--Mine-Shaft);
+}
+
+
+.card h2 span {
+   color: var(--Mine-Shaft); 
+}
+
+
+.plan-sect .plan-cards .card h2 {
+     color: var(--Dark-Gray);
+     text-align: left;
+}
+
+
+.plan-cards .card h4 {
+     color: var(--Mine-Shaft);
+}
+
+
+.plan-cards .card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    padding: 24px 0 0 0;
+}
+
+
+.plan-sect .plan-cards li .icon {
+    color: var(--primary);
+}
+
+.plan-cards .card ul li {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+    color: var(--Mine-Shaft);
+}
+
+
+.plan-cards .card button {
+    background: var(--Aqua-Squeeze);
+    border: none;
+    padding: 18px 108px;
+    border-radius: 20px;
+    color: var(--Observatory);
+    margin: 30px 0 0 0;
+    cursor: pointer;
+}
+
+
+.plan-sect .plan-cards .enterprise {
+    background: var(--primary);
+}
+
+
+/* .plan-sect .plan-cards .enterprise li .icon, */
+.plan-sect .plan-cards .enterprise li,
+.plan-sect .plan-cards .enterprise,
+.plan-sect .plan-cards .enterprise h6,
+.plan-sect .plan-cards .enterprise h2,
+.plan-sect .plan-cards .enterprise h2 span,
+.plan-sect .plan-cards .enterprise h4 {
+    color: var(--White);
+}
+
+
+.plan-sect .plan-cards .enterprise button {
+    background: var(--Zircon);
+    display: flex;
+    gap: 5px;
+}
+
+
+/* Mobile */
+@media (max-width: 500px) {
+    .plan-cards {
+        overflow: auto;
+    }
+
+
+    .plan-sect h1 {
+        padding: 60px 0 10px 0;
+    }
+
+
+    .card h2 {
+        padding: 6px 0;
+    }
+
+
+    .plan-cards .card button {
+        padding: 18px 90px;
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 780px) {
+    .plan-sect .container > .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .plan-sect .card {
+        width: 90%;
+    }
+}

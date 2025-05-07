@@ -1,0 +1,40 @@
+.about-us {
+    padding: 420px 0 120px 0;
+    color: #000;
+}
+
+
+.about-us .flex {
+    gap: 50px;
+    justify-content: flex-start;
+}
+
+
+.about-us .abt-txt {
+    width: 600px;
+}
+
+
+.about-us .abt-txt h1 {
+    font-size: calc(1.425rem + 2.1vw);
+}
+
+
+@media (max-width: 500px) {
+    .about-us {
+        padding: 100px 0 100px 0;
+    }
+
+
+    .abt-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .abt-txt p {
+        width: 350px;
+    }
+}
