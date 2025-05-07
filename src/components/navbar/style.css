@@ -45,6 +45,12 @@ nav .menu {
     font-size: 30px;
 }
 
+
+nav .mobile {
+    display: none;
+}
+
+
 @media (max-width: 500px) {
     nav .desktop {
         display: none;
