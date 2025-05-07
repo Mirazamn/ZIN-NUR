@@ -58,6 +58,7 @@ nav .mobile {
 
 
     nav .mobile {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
